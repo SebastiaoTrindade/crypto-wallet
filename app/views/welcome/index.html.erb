@@ -1,5 +1,9 @@
 <h1>Bem Vindos</h1>
 
+<p>Esse é um sistema de gerenciamento de mineradoras de criptomoedas.</p>
+<p><strong> Data: </strong><%= I18n.l(Date.today) %></p>
+<p>O idioma utilizado no sistema é: <strong><%= I18n.locale %></strong></p>
+
 <ul>
     <li><%= link_to "Moedas", new_coin_path%></li>
     <li><%= link_to "Tipos de Mineração", mining_types_path%></li>
